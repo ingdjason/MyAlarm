@@ -1,0 +1,63 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#e6e6fa">
+                <TextView
+                    android:id="@+id/timeAdd"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:textSize="18pt"
+                    android:text="02:20 pm"
+                    android:textAlignment="center" />
+                <TextView
+                    android:id="@+id/dateAdd"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:textSize="14pt"
+                    android:text="12/ 05 /2017"
+                    android:textAlignment="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+                <Button
+                     android:background="#e11212"
+                    android:drawableTop="@drawable/ic_delete"
+                     android:id="@+id/btnDelete"
+                     android:layout_weight="1"
+                     android:layout_height="140px"
+                     android:layout_marginLeft="20px"
+                     android:layout_width="140px"
+                    android:elevation="1dp" />
+                <Button
+                    android:background="#97ccbc"
+                    android:id="@+id/etatAdd"
+                    android:text="ON"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:layout_height="140px"
+                    android:layout_marginLeft="20px"
+                    android:layout_width="140px"
+                    android:src="@android:drawable/ic_menu_agenda"/>
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
